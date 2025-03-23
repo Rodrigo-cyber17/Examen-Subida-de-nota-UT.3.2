@@ -6,7 +6,6 @@
     .tarjetas{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px; /* Optional: Add some gap between the items */
     }
 }
 
