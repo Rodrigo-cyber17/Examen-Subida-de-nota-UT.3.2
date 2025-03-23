@@ -1,0 +1,20 @@
+@media (max-width:767px){
+
+}
+
+@media (min-width:768px) and (max-width:879px){
+    .tarjetas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; /* Optional: Add some gap between the items */
+    }
+}
+
+@media (max-width:880px){
+    .menu { display: none; }
+    .hamburguesa{
+        position: relative;
+        display: block;
+        padding: 0px 20px;
+    }
+}
